@@ -1,10 +1,14 @@
-# 🎨 Gerador de Paleta de Cores  
 
-Este projeto é um **Gerador de Paleta de Cores** desenvolvido com **HTML**, **CSS** e **JavaScript**. Ele cria paletas aleatórias e permite copiar os códigos HEX das cores geradas com um clique.  
 
-## 📸 Imagem do Projeto  
+<h1 align="center">
+  Gerador de Paleta de Cores 
+</h1>
 
-![Gerador de Paleta de Cores](https://via.placeholder.com/800x400?text=Preview+do+Gerador+de+Paleta+de+Cores)  
+<p align="center"> @Code By Ryan</p>
+
+![Lading Page](https://github.com/user-attachments/assets/3e53fe8e-481a-4629-a1f9-1953000ebf31)
+
+<p align="center">Este projeto é um **Gerador de Paleta de Cores** desenvolvido com **HTML**, **CSS** e **JavaScript**. Ele cria paletas aleatórias e permite copiar os códigos HEX das cores geradas com um clique. </p>
 
 ## ✨ Funcionalidades  
 
@@ -34,6 +38,7 @@ Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICE
 ## 📩 Contato  
 
 Se tiver alguma dúvida ou sugestão, entre em contato:  
-- **Email:** seuemail@email.com  
-- **Portfólio:** [Seu Portfólio](https://seuportfolio.com)  
-- **GitHub:** [@SeuGitHub](https://github.com/SeuGitHub)  
+- Email: ryanrodrigues9890@gmail.com
+- Portfólio:[Meu Portfólio](https://codebyryan.vercel.app/)
+- GitHub: [@CodeBy-Ryan](https://github.com/CodeBy-Ryan)
+
