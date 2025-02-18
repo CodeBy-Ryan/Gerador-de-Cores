@@ -8,7 +8,7 @@
 
 ![Image](https://github.com/user-attachments/assets/62ce1cac-96b3-4bef-b6b6-2cc6792e8051)
 
-<p align="center">Este projeto é um **Gerador de Paleta de Cores** desenvolvido com **HTML**, **CSS** e **JavaScript**. Ele cria paletas aleatórias e permite copiar os códigos HEX das cores geradas com um clique. </p>
+<p align="center">Este projeto é um Gerador de Paleta de Cores desenvolvido com HTML, CSS e JavaScript. Ele cria paletas aleatórias e permite copiar os códigos HEX das cores geradas com um clique. </p>
 
 ## ✨ Funcionalidades  
 
