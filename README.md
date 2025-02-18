@@ -6,7 +6,7 @@
 
 <p align="center"> @Code By Ryan</p>
 
-![Lading Page](https://github.com/user-attachments/assets/3e53fe8e-481a-4629-a1f9-1953000ebf31)
+![Image](https://github.com/user-attachments/assets/62ce1cac-96b3-4bef-b6b6-2cc6792e8051)
 
 <p align="center">Este projeto é um **Gerador de Paleta de Cores** desenvolvido com **HTML**, **CSS** e **JavaScript**. Ele cria paletas aleatórias e permite copiar os códigos HEX das cores geradas com um clique. </p>
 
