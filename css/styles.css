@@ -1,62 +1,89 @@
+/* Definindo a fonte local */
+@font-face {
+  font-family: "Pixelify Sans"; /* Nome da fonte que você vai usar */
+  src: url("/font/Pixelify\ Sans.ttf") format("truetype"); /* Caminho relativo para a fonte */
+  font-weight: 400; /* Peso da fonte regular */
+  font-style: normal; /* Estilo normal */
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #141111;
 }
 
 .container {
-    text-align: center;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(1, 153, 255, 0.911);
 }
 
 h1 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.Título h1 {
+  font-size: 1.5rem; /* Aumenta o tamanho da fonte para torná-la mais chamativa */
+  font-weight: bold;
+  background: linear-gradient(
+    270deg,
+    #12a1e3 -4.92%,
+    #1173ce 78.24%
+  ); /* Gradiente de cor */
+  -webkit-background-clip: text; /* Aplica o fundo ao texto (em navegadores WebKit) */
+  -webkit-text-fill-color: transparent; /* Faz o texto ser preenchido com o gradiente */
+  background-clip: text; /* Aplica o gradiente no texto */
+  font-family: "Pixelify Sans", serif; /* Fonte estilosa para dar um visual único */
+  text-align: center; /* Centraliza o texto */
+  margin-top: 20px; /* Espaço acima do logo */
+  /* Efeito de transição para quando o mouse passar por cima */
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
 
 .palette {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
 .color-box {
-    flex: 1;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    transition: transform 0.2s;
+  flex: 1;
+  height: 120px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
 }
 
 .color-box:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s;
+  padding: 10px 20px;
+  background-color: #1e406b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
 }
 
 button:hover {
-    background-color: #555;
+  background-color: #669e4a;
 }
