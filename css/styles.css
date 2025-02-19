@@ -19,6 +19,7 @@ body {
   align-items: center;
   height: 100vh;
   background-color: #141111;
+  padding: 10px; /* Adicionado para evitar cortes em telas menores */
 }
 
 .container {
@@ -27,6 +28,7 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(1, 153, 255, 0.911);
+  max-width: 90%; /* Ajusta para telas menores */
 }
 
 h1 {
@@ -34,20 +36,15 @@ h1 {
 }
 
 .Título h1 {
-  font-size: 1.5rem; /* Aumenta o tamanho da fonte para torná-la mais chamativa */
+  font-size: 1.5rem;
   font-weight: bold;
-  background: linear-gradient(
-    270deg,
-    #12a1e3 -4.92%,
-    #1173ce 78.24%
-  ); /* Gradiente de cor */
-  -webkit-background-clip: text; /* Aplica o fundo ao texto (em navegadores WebKit) */
-  -webkit-text-fill-color: transparent; /* Faz o texto ser preenchido com o gradiente */
-  background-clip: text; /* Aplica o gradiente no texto */
-  font-family: "Pixelify Sans", serif; /* Fonte estilosa para dar um visual único */
-  text-align: center; /* Centraliza o texto */
-  margin-top: 20px; /* Espaço acima do logo */
-  /* Efeito de transição para quando o mouse passar por cima */
+  background: linear-gradient(270deg, #12a1e3 -4.92%, #1173ce 78.24%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Pixelify Sans", serif;
+  text-align: center;
+  margin-top: 20px;
   transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
 
@@ -55,12 +52,15 @@ h1 {
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
+  flex-wrap: wrap; /* Permite que os blocos quebrem para a linha de baixo em telas pequenas */
+  justify-content: center; /* Centraliza as cores */
 }
 
 .color-box {
   flex: 1;
   height: 120px;
-  width: 100px;
+  min-width: 80px; /* Evita que as cores fiquem pequenas demais */
+  max-width: 150px; /* Limite máximo para manter a proporção */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,4 +86,26 @@ button {
 
 button:hover {
   background-color: #669e4a;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .palette {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .color-box {
+    width: 100%;
+    max-width: none;
+  }
+
+  button {
+    width: 100%;
+  }
 }
